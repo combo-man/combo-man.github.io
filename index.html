@@ -1,17 +1,33 @@
 <html>
     <head>
  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap" rel="stylesheet">
         <style>
             body {
-                border-style: outset;
-                border-color: #f9f5d7 #ebdbb2 #ebdbb2 #f9f5d7;
-                width: 50%;
+                font-size: xx-large;
+                width: 75%;
                 margin: auto;
                 text-align: center;
                 font-family: 'Roboto Mono', monospace;
+                color: #3c3836;
+                background-color: #f2e5bc;
+            }  
+            #titlecard {
+                font-family: 'Roboto Slab', serif;
                 background-color: #fbf1c7;
                 color: #3c3836;
-            }  
+                width: 50%;
+                margin: auto;
+                border-radius: 25px;
+                box-shadow: 10px 10px #bdae93;
+            }
+            #term {
+                padding-left: 20px;
+                background-color: #fbf1c7;
+                text-align: left;
+                border-radius: 25px;
+                box-shadow: 10px 10px #bdae93;
+            }
             a:link {color: #076678;}
             a:visited {color: #8f3f71;}
             ul {display: inline-block;}
@@ -25,19 +41,36 @@
         <title>Jacob Winkler</title>
     </head>
     <body>
+        <div id="titlecard">
         <h1>Jacob Winkler</h1>
         <h3>Software Gardener</h3>
+        </div>
+        <p></p>
         <div style="margin: auto; width:75%; text-align:center;">
-        <pre style="text-align:left;"><code>
-<span class="user">jacob@home</span><span class="path">:~/</span>ls
-<span class="string">. .. Contact GitHub Demos Blog</span>
-<span class="user">jacob@home</span><span class="path">:~/</span>push2page *
-push2page: <span class="error">missing build files for </span><span class="string">'Demos', 'Blog'</span>
-push2page: <span class="response">finished with errors. exiting...</span>
-<span class="user">jacob@home</span><span class="path">:~/</span>cwsay <span class="string">"Come back soon!"</span>
-<span class="error">cwsay: command not found</span>
-<span class="user">jacob@home</span><span class="path">:~/</span>cowsay <span class="string">"Come back soon!"</span>
-<span class="response">
+            <div id="term"> 
+            <br>
+            <span class="user">jacob@home</span><span class="path">:~/</span>ls
+            <br>
+            <span class="string">. .. Contact GitHub Demos Blog</span>
+            <br>
+            <span class="user">jacob@home</span><span class="path">:~/</span>push2page *
+            <br>
+            push2page: <span class="error">missing build files for </span>
+            <br>
+            <span class="string">'Demos', 'Blog'</span>
+            <br>
+            push2page: 
+            <span class="response">finished with errors. exiting...</span>
+            <br>
+            <span class="user">jacob@home</span><span class="path">:~/</span>cwsay 
+            <span class="string">"Come back soon!"</span>
+            <br>
+            <span class="error">cwsay: command not found</span>
+            <br>
+            <span class="user">jacob@home</span><span class="path">:~/</span>cowsay <span class="string">"Come back soon!"</span>
+            <br>
+            <span class="response">
+<pre>
  _________________
 (<span class="string"> come back soon!</span> )
  -----------------
@@ -46,11 +79,13 @@ push2page: <span class="response">finished with errors. exiting...</span>
             (__)\       )\/\
                 ||----w |
                 ||     ||
-</span>
-        </code></pre>
-        </div>
+</pre>
+        </span>
+    </div>  
+    </div>
+    <p></p>
     <footer>
-        <p>
+        <div id="titlecard">
             <a href="mailto:contact@jacobwinkler.dev">
                 contact@jacobwinkler.dev
             </a>
@@ -58,6 +93,7 @@ push2page: <span class="response">finished with errors. exiting...</span>
             <a href="https://github.com/combo-man">
                 github
             </a>
+        </div>
     </footer>
     </body>
 </html>
